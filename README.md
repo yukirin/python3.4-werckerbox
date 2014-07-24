@@ -35,5 +35,6 @@ This software is released under the [MIT License][MIT], see LICENSE
 ##Changelog
 ###0.2.0
 - Update README
+
 ###0.1.0
 - Initial release
