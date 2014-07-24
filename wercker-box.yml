@@ -1,0 +1,16 @@
+name: python3.4-werckerbox
+version: 0.1.0
+inherits: wercker/ubuntu12.04-webessentials@1.0.4
+type: main
+platform: ubuntu@12.04
+description: wercker box for python3.4
+keywords:
+  - python
+  - python3
+  - python3.4
+packages:
+    - python3.4@3.4.1
+script: |
+  sudo add-apt-repository ppa:fkrull/deadsnakes
+  sudo apt-get update -y
+  sudo apt-get install python3.4 -y
