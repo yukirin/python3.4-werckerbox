@@ -25,3 +25,13 @@ build:
           echo "pip version $(pip --version) running"
           pip freeze
 ```
+
+##Licenses
+This software is released under the [MIT License][MIT], see LICENSE
+
+[MIT]: http://www.opensource.org/licenses/mit-license.php
+
+
+##Changelog
+###0.1.0
+- Initial release
