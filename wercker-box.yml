@@ -11,6 +11,6 @@ keywords:
 packages:
     - python3.4@3.4.1
 script: |
-  sudo add-apt-repository ppa:fkrull/deadsnakes
+  sudo add-apt-repository ppa:fkrull/deadsnakes -y
   sudo apt-get update -y
   sudo apt-get install python3.4 -y
