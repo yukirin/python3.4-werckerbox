@@ -8,7 +8,7 @@ wercker.yml for python:
     
 ```yaml
 ---
-box: yukirin/python3.4-werckerbox@0.2.0
+box: yukirin/python3.4-werckerbox@0.2.1
 
 # Build definition
 build:
@@ -33,6 +33,10 @@ This software is released under the [MIT License][MIT], see LICENSE
 
 
 ##Changelog
+
+###0.2.1
+- Fix typo
+
 ###0.2.0
 - Update README
 
