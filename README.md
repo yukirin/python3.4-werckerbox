@@ -1,8 +1,8 @@
-#python3.4-werckerbox
+# python3.4-werckerbox
 
 wercker box
 
-##Usage
+## Usage
 
 wercker.yml for python:
     
@@ -26,19 +26,19 @@ build:
           pip freeze
 ```
 
-##Licenses
+## Licenses
 This software is released under the [MIT License][MIT], see LICENSE
 
 [MIT]: http://www.opensource.org/licenses/mit-license.php
 
 
-##Changelog
+## Changelog
 
-###0.2.1
+### 0.2.1
 - Fix typo
 
-###0.2.0
+### 0.2.0
 - Update README
 
-###0.1.0
+### 0.1.0
 - Initial release
